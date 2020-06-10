@@ -8,16 +8,16 @@
 typedef  struct _complex complex;
 struct _complex
 {
-    int a;
-    int b;
+    int x;
+    int y;
 };
 // "Escriba las líneas de C para un tipo Alumno: nombre, no_cuenta, semestre, carrera"
 struct Alumno
 {
-    char nombre [ 50 ];
+    char nombre [ 100 ];
     int no_cuenta;
     int semestre;
-    char carrera [ 20 ];
+    char carrera [ 15 ];
 };
 // "Escriba las líneas de C para un tipo de dato nodo que apunta al siguiente"
 typedef  struct _node node;
@@ -28,12 +28,12 @@ struct _node {
 // "Escriba una estructura en c generar una matriz de apuntadores"
 struct matrixap
 {
-    int * ap [ 4 ] [ 5 ];
+    int * ap [ 3 ] [ 3 ];
 };
 // "Escriba el código en C para generar un arreglo entero de apuntadores
-structura princi 
+structura princi
 {
-    int * ap [ 5 ];
+    int * ap [ 10 ];
 };
 int  main ()
 {
